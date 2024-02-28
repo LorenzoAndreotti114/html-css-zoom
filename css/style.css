@@ -7,7 +7,7 @@
 /* HEADER */
 
 header {
-    background-color:brown ;
+    background-color:rgb(0, 0, 0) ;
 }
 
 .Header-Container {
@@ -19,18 +19,22 @@ header {
     background-color: grey;
     color: white;
     padding: 5px;
+    margin: 5px;
     border-radius: 5px;
 }
 
 header div {
     display: inline-block;
-    margin: 3px;
+    padding: 10px;
 }
 
 /* MAIN */
 
+main {
+    background-color: black;
+}
+
 .Main-Container {
-    background-color: aqua;
     width: 100%;
     height: 50vw;
     padding-left: 50px;
@@ -39,16 +43,16 @@ header div {
 
 .Main-Big-Col {
     display: flex;
-    background-color: red;
     flex-wrap: wrap;
 
 }
 
 .Main-Lil-Col {
+    position: relative;
     display: flex;
     width: calc(100%/7);
-    background-color: aqua;
-
+    margin-top: 10px;
+    padding: 2px;
 }
 
 .Img-Clone {
@@ -56,6 +60,15 @@ header div {
     width: 100%;
 }
 
+.Microphone {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 1.2vW;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+}
 
 
 
