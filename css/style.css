@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    height: 100vh;
+}
+
 /* HEADER */
 
 header {
@@ -36,15 +40,14 @@ main {
 
 .Main-Container {
     width: 100%;
-    height: 50vw;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 30px;
 }
 
 .Main-Big-Col {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .Main-Lil-Col {
@@ -71,10 +74,56 @@ main {
 }
 
 
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    height: 80px;
+    color: white;
+}
+
+.Elements {
+    text-align: center;
+    padding: 15px 5px;
+}
+
+.Icon {
+    font-size: 2vw;
+}
+
+.Icon-Small {
+    font-size: 1vw;
+}
+
+.Icon-Text {
+    font-size: 1.2vw;
+}
 
 
-.Footer-Container {
-    background-color: coral;
-    width: 100%;
-    height: 100px;
+.Footer-Start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.Footer-Mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.Footer-End {
+    background-color: rgb(110, 110, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
 }
